@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<title>media queries</title>
+<style>
+
+@font-face{
+    font-family: "Helvetica Neue";
+    src: url('helvetica neue 95 black') format('ttf');
+
+}
+/* mobile layout */
+body{
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px;
+    font-size: 24px;
+    font-family: "Helvetica Neue";
+}
+
+#rcorners2 {
+  border-radius: 30px;
+  border: 4px solid black;
+  padding: 18px; 
+  width: 150px;
+  height: 150px; 
+}
+
+/* desktop layout for smaller windows*/
+@media (hover) and (min-width: 600px){
+    body{
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 200px 200px 200px; 
+    }
+}
+
+/* desktop layout for larger windows*/
+@media (hover) and (min-width: 800px){
+    body{
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 200px 200px;
+    }
+}
+/*    div:nth-child(odd){
+        background-color:red;
+    }
+    div:nth-child(even){
+        background-color:blue;
+    }*/
+
+</style>
+<body>
+
+    <div id="rcorners2">HOW TO FOLLOW TINGYU SU ON INSTAGRAM</div>
+    <div id="rcorners2">1/ OPEN THE INSTAGRAM APP ON A PHONE</div>
+    <div id="rcorners2">2/ CLICK THE SEARCH TOOL ICON AT THE BOTTOM</div>
+    <div id="rcorners2">3/ TYPE tingyusu._.su</div>
+    <div id="rcorners2">4/ CLICK THE RIGHT ONE FROM THE LISTED</div>
+    <div id="rcorners2">5/ CLICK FOLLOW AT THE TOP OF THE PAGE</div>
+
+</body>

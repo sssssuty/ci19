@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<title>CSS Grid</title>
+<style>
+    body{
+        display: grid;
+        grid-template-columns: 150px 150px 150px auto;
+        grid-template-rows: 200px 50px 100px 50px;
+    }
+    div:nth-child(odd){
+        background-color: pink;
+    }
+    div:nth-child(even){
+        background-color: blue;
+    }
+/*    .title{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    .sidebar{
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }*/
+    .seven{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 4;
+        grid-column-end: 4;
+    }
+</style>
+<body>
+    <div class="sidebar">1</div>
+    <div class="title">2</div>
+    <div>3</div>
+    <div>4</div>
+    <div >5</div>
+    <div>6</div>
+    <div class="seven">7</div>
+</body>

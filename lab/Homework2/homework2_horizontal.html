@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+/*    have this body.css if want every box vertically longer, delete this if want every box horizontally longer*/
+    /*body{
+        display: flex;
+        flex-direction: row;
+    }*/
+            
+    </style>
+</head>
+<body>
+    <script>
+        var i = 0;
+        
+        while (i < 5){
+            let thing = document.createElement("div");
+            document.body.appendChild(thing);
+            
+            var h = Math.floor(Math.random()*360);
+            var s = Math.floor(Math.random()*100);
+            var l = Math.floor(Math.random()*100);
+
+/*    have these two lines if want every box horizontally longer, delete this if want every box vertically longer*/
+            thing.style.width = "100vw";
+            thing.style.height = "20vh";
+
+
+/*    have these two lines if want every box vertically longer, delete this if want every box horizontally longer*/
+            // thing.style.height = "100vh";
+            // thing.style.width = "15vw";
+
+            thing.style.backgroundColor = "hsl("+ h +","+ s +"%,"+ l +"%)";
+            i ++;
+        }
+    </script>
+
+</body>
+</html>

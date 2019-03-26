@@ -5,13 +5,16 @@
 <style>
 #container{
   position: absolute;
-  width:1300px;
+  width:1250px;
+  overflow: hidden;
+  margin-left: 60px;
+  text-transform: uppercase;
 }
 
 #myInput {
-  width: 91.5%;
+  width: 96.5%;
   font-size: 20px;
-  padding: 12px 10px 12px 20px;
+  padding: 12px 10px 12px 10px;
   border: 1px solid #ddd;
   margin-bottom: 12px;
   margin-left: 20px;
@@ -54,6 +57,16 @@ h1{
 
 #artcritics{
   font-family: sans-serif;
+  font-size: 25px;
+/*  padding-left: 10px;*/
+}
+
+#artcritics2{
+  font-family: sans-serif;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #subtitle{
@@ -74,18 +87,18 @@ h1{
 
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for ..." title="Type in a name">
 
-<ul>
-  <li><a href="#" id="artists" style="width: 1560px">A Chinese contemporary artist, active in sculpture, installation, architecture, curating, photography, film, and social, political and cultural.</a></li>
+<ul id = "myUL">
+  <li><a href="#" id="artists" style="width: 2100px">A Chinese contemporary artist, active in sculpture, installation, architecture, curating, photography, film, and social, political and cultural.</a></li>
   <li><a href="#" id="artists" style="width: 510vw">An Italian polymath of the Renaissance whose areas of interest included invention, drawing, painting, sculpting, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, writing, history, and cartography. He has been variously called the father of palaeontology, ichnology,[2] and architecture, and he is widely considered one of the greatest painters of all time.</a></li>
 
-  <li><a href="#" id="psychologists" style="width: 130vw">An Austrian neurologist and the founder of psychoanalysis, a clinical method for treating psychopathology through dialogue between a patient and a psychoanalyst.</a></li>
-  <li><a href="#" id="psychologists" style="width: 35vw">An Austrian psychoanalyst and art historian.</a></li>
+  <li><a href="#" id="psychologists" style="width: 190vw">An Austrian neurologist and the founder of psychoanalysis, a clinical method for treating psychopathology through dialogue between a patient and a psychoanalyst.</a></li>
+  <li><a href="#" id="psychologists" style="width: 70vw">An Austrian psychoanalyst and art historian.</a></li>
 
-  <li><a href="#" id="psychologists" style="width: 210vw">An Austrian-British author and psychoanalyst who is known for her work in the world of developmental psychology. Her observation and novel therapeutic techniques for adolescents had a profound effect on child psychology as well as contemporary psychoanalysis.</a></li>
-  <li><a href="#" id="artcritics" style="width: 145vw">A Lithuanian-born American art historian known for forging new art historical methodologies that incorporated an interdisciplinary approach to the study of works of art.</a></li>
+  <li><a href="#" id="psychologists" style="width: 310vw">An Austrian-British author and psychoanalyst who is known for her work in the world of developmental psychology. Her observation and novel therapeutic techniques for adolescents had a profound effect on child psychology as well as contemporary psychoanalysis.</a></li>
+  <li><a href="#" id="artcritics" style="width: 245vw">A Lithuanian-born American art historian known for forging new art historical methodologies that incorporated an interdisciplinary approach to the study of works of art.</a></li>
 
 </ul>
-<div>A Lithuanian-born American art historian known for forging new art historical methodologies that incorporated an interdisciplinary approach to the study of works of art.A Lithuanian-born American art historian known for forging new art historical methodologies that incorporated an interdisciplinary approach to the study of works of art.A Lithuanian-born American art historian known for forging new art historical methodologies that incorporated an interdisciplinary approach to the study of works of art.</div>
+<!-- <div id="artcritics2" style="width: 245vw">A Lithuanian-born American art historian known for forging new art historical methodologies that incorporated an interdisciplinary approach to the study of works of art.</div> -->
 </div>
 
 <script>

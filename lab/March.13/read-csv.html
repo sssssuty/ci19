@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <input type="file">
+<script type="text/javascript">
+    document.querySelectorAll("input")[0].onchange = function(event){
+        // console.log(event);
+        // console.log(event.target.value);
+        var file = event.target.files[0];
+        var reader = new FileReader();
+        reader.readAsText(file, "UTF-8");
+        reader.onload = function(readerEvent){
+            didLoad(readerEvent.target.result);
+        }
+    }
+
+    function didLoad(text){
+        console.log(text);
+        var lines = text.split(/\r\n|\n/);
+        console.log(lines);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<script type="text/javascript">
+    var nothing = undefined;
+    var bool = true;
+    var string = "hi";
+    var number = 3.14;
+    var object = {};
+    var array = [];
+    var func = function(){};
+
+    // array
+
+    var weatherArray = [
+            5,20,false
+    ];
+
+    console.log(weatherArray);
+    var weather = {
+        temperature : 5,
+        humidity : 20,
+        isRaining : false
+    };
+
+    console.log(weather);
+    console.log(weather["humidity"]);
+    console.log(weather.humidity);
+
+    console.log(console);
+    console["log"]("beijing");
+
+    //level 1: "nyc", "beijing"
+    //level 2: "temperature"
+    //level 3 for temperature only: array of numbers
+
+    var weathers = {
+        nyc: {
+            temperature:[5, 2, 11],
+            humidity : 20,
+            isRaining : false
+        },
+        beijing: {
+            temperature:[10, 8, 17],
+            humidity : 10,
+            isRaining : false
+        }
+    }
+
+    console.log(weathers);
+    console.log(weathers.beijing.temperature[1]);
+
+
+</script>
+
+</html>

@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COLLECTION-Iteration1</title>
+  <script src="jquery-3.3.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/ScrollToPlugin.min.js"></script>
+  <style>
+  p {
+    margin:0;
+    padding-top: 20px;
+    white-space: nowrap;
+  }
+
+  a {
+    margin:0;
+    padding-top: 20px;
+    white-space: nowrap;
+  }
+
+  body{
+    margin:0;
+  }
+
+  li {
+    list-style-type: none;
+    margin-top: 2vw;
+    padding: 0;
+  }
+  ul{
+    padding: 0;
+  }
+  
+  #container{
+    position: absolute;
+    width:90vw;
+    overflow: hidden;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  #myInput {
+    width: 96.5vw;
+    font-size: 1.5vw;
+    padding: 0.9vw;
+    border: 0.1vw solid #ddd;
+    margin-bottom: 0.9vw;
+  }
+
+  #subtitle{
+    font-family: sans-serif;
+    color: grey;
+    font-size: 1.5vw;
+    margin-top: 0px;
+    margin-bottom: 2vw;
+  }
+
+  h1{
+  /*  margin-left: 20px;*/
+    font-family: sans-serif;
+    font-size: 6vw;
+    margin-bottom: 0.4vw;
+  }
+
+  .artists {
+/*    font-family: Sacred Bridge Demo;*/
+    font-family: Bright Larch PERSONAL USE ONLY;
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    cursor: move;
+  }
+
+  .psychologists{
+    font-family: Mercury Display;
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    cursor: move;
+  }
+
+  .artcritics{
+    font-family: sans-serif;
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    cursor: move;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+
+  $( function() {
+    　for (var i=0; i<12; i++){
+      var x = document.querySelectorAll("#draggable");
+      $(x[i]).draggable({ axis: 'x' });
+      $(x[i]).draggable('option', 'axis', 'x');
+
+        window.scrollBy(100, 100);
+  console.log("AApageXOffset: " + window.pageXOffset + ", pageYOffset: " + window.pageYOffset);
+    }
+  } );
+
+  function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < 12; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+  }
+
+//   function ss() {
+//   console.log("aaa");
+//   window.scrollBy(100, 100);
+//   console.log("pageXOffset: " + window.pageXOffset + ", pageYOffset: " + window.pageYOffset);
+// }
+
+  function sss() {
+  console.log("aaa");
+  window.scrollBy(100, 100);
+  console.log(scroller.y);
+}
+  </script>
+</head>
+<body>
+    <div id="container">
+
+    <h1>100 -ists</h1>
+    <div id="subtitle">Text-Based Visual Research Archive</div>
+
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for ..." title="Type in a name">
+
+    <ul id = "myUL">
+        <li id="draggable" class="artists">
+            <a>A Chinese contemporary artist, active in sculpture, installation, architecture, curating, photography, film, and social, political and cultural.</a>
+        </li>
+
+        <li id="draggable" class="artists">
+          <a>An Italian polymath of the Renaissance whose areas of interest included invention, drawing, painting, sculpting, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, writing, history, and cartography. He has been variously called the father of palaeontology, ichnology,[2] and architecture, and he is widely considered one of the greatest painters of all time.</a>
+        </li>
+
+        <li id="draggable" class="psychologists">
+            <a>An Austrian neurologist and the founder of psychoanalysis, a clinical method for treating psychopathology through dialogue between a patient and a psychoanalyst.</a>
+        </li>
+
+        <li id="draggable" class="psychologists">
+            <a>An Austrian psychoanalyst and art historian.</a>
+        </li>
+
+        <li id="draggable" class="psychologists">
+            <a>An Austrian-British author and psychoanalyst who is known for her work in the world of developmental psychology. Her observation and novel therapeutic techniques for adolescents had a profound effect on child psychology as well as contemporary psychoanalysis.</a>
+        </li>
+
+        <li id="draggable" class="artcritics">
+            <a>A Lithuanian-born American art historian known for forging new art historical methodologies that incorporated an interdisciplinary approach to the study of works of art.</a>
+        </li>
+
+            <li id="draggable" class="artists">
+            <a>A Chinese contemporary artist, active in sculpture, installation, architecture, curating, photography, film, and social, political and cultural.</a>
+        </li>
+
+        <li id="draggable" class="artists">
+          <a>An Italian polymath of the Renaissance whose areas of interest included invention, drawing, painting, sculpting, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, writing, history, and cartography. He has been variously called the father of palaeontology, ichnology,[2] and architecture, and he is widely considered one of the greatest painters of all time.</a>
+        </li>
+
+        <li id="draggable" class="psychologists">
+            <a>An Austrian neurologist and the founder of psychoanalysis, a clinical method for treating psychopathology through dialogue between a patient and a psychoanalyst.</a>
+        </li>
+
+        <li id="draggable" class="psychologists">
+            <a>An Austrian psychoanalyst and art historian.</a>
+        </li>
+
+        <li id="draggable" class="psychologists">
+            <a>An Austrian-British author and psychoanalyst who is known for her work in the world of developmental psychology. Her observation and novel therapeutic techniques for adolescents had a profound effect on child psychology as well as contemporary psychoanalysis.</a>
+        </li>
+
+        <li id="draggable" class="artcritics">
+            <a>A Lithuanian-born American art historian known for forging new art historical methodologies that incorporated an interdisciplinary approach to the study of works of art.</a>
+        </li>
+
+    </ul>
+<!--  <button onclick="ss()">aa</button>
+ <div onmousemove="sss(event)" style="background-color: blue; width:100px; height:100px"></div> -->
+ </div>
+</body>
+</html>

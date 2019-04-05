@@ -2,7 +2,7 @@
   {
     "entryId": 1,
     "names": "Barry K Gills",
-    "-ists": "art critic",
+    "ists": "art critic",
     "relationtwo": 18,
     "year": "",
     "country": "",
@@ -11,7 +11,7 @@
   {
     "entryId": 2,
     "names": "C. G. JUNG",
-    "-ists": "art critic",
+    "ists": "art critic",
     "relationtwo": 20,
     "year": "",
     "country": "",
@@ -20,7 +20,7 @@
   {
     "entryId": 3,
     "names": "Christian Sorace",
-    "-ists": "art critic",
+    "ists": "art critic",
     "relationtwo": 1,
     "year": 2014,
     "country": "",
@@ -29,7 +29,7 @@
   {
     "entryId": 4,
     "names": "Cornelius Holtorf",
-    "-ists": "art critic",
+    "ists": "art critic",
     "relationtwo": 2,
     "year": 2015,
     "country": "",
@@ -38,7 +38,7 @@
   {
     "entryId": 5,
     "names": "Elms, Alan C.",
-    "-ists": "art critic",
+    "ists": "art critic",
     "relationtwo": 3,
     "year": 2016,
     "country": "",
@@ -47,7 +47,7 @@
   {
     "entryId": 6,
     "names": "Jane Chin Davidson",
-    "-ists": "art critic",
+    "ists": "art critic",
     "relationtwo": 4,
     "year": 2017,
     "country": "",
@@ -56,7 +56,7 @@
   {
     "entryId": 7,
     "names": "Kevin Gray",
-    "-ists": "art critic",
+    "ists": "art critic",
     "relationtwo": 5,
     "year": 2018,
     "country": "",
@@ -65,7 +65,7 @@
   {
     "entryId": 8,
     "names": "Meyer Schapiro",
-    "-ists": "art critic",
+    "ists": "art critic",
     "relationtwo": 6,
     "year": 2019,
     "country": "Lithuan, American",
@@ -74,7 +74,7 @@
   {
     "entryId": 9,
     "names": "O Schell",
-    "-ists": "art critic",
+    "ists": "art critic",
     "relationtwo": 7,
     "year": 2020,
     "country": "",
@@ -83,7 +83,7 @@
   {
     "entryId": 10,
     "names": "Paskauskas, R.A.",
-    "-ists": "art critic",
+    "ists": "art critic",
     "relationtwo": 8,
     "year": 2021,
     "country": "",
@@ -92,7 +92,7 @@
   {
     "entryId": 11,
     "names": "Paul C. Vitz",
-    "-ists": "art critic",
+    "ists": "art critic",
     "relationtwo": 9,
     "year": 2022,
     "country": "",
@@ -101,7 +101,7 @@
   {
     "entryId": 12,
     "names": "Simone Hancox",
-    "-ists": "art critic",
+    "ists": "art critic",
     "relationtwo": 10,
     "year": 2023,
     "country": "",
@@ -110,7 +110,7 @@
   {
     "entryId": 13,
     "names": "Tiberiu Fekete",
-    "-ists": "art critic",
+    "ists": "art critic",
     "relationtwo": 11,
     "year": 2024,
     "country": "",
@@ -119,7 +119,7 @@
   {
     "entryId": 14,
     "names": "Ai Weiwei",
-    "-ists": "artist",
+    "ists": "artist",
     "relationtwo": 12,
     "year": 2025,
     "country": "China",
@@ -128,7 +128,7 @@
   {
     "entryId": 15,
     "names": "Leonardo Da Vinci",
-    "-ists": "artist",
+    "ists": "artist",
     "relationtwo": 13,
     "year": 2026,
     "country": "Italy",
@@ -137,7 +137,7 @@
   {
     "entryId": 16,
     "names": "Margarita Cabrera",
-    "-ists": "artist",
+    "ists": "artist",
     "relationtwo": "",
     "year": 2027,
     "country": "",
@@ -146,7 +146,7 @@
   {
     "entryId": 17,
     "names": "Matthew Barney",
-    "-ists": "artist",
+    "ists": "artist",
     "relationtwo": "",
     "year": 2028,
     "country": "American",
@@ -155,7 +155,7 @@
   {
     "entryId": 18,
     "names": "TRACEY EMIN",
-    "-ists": "artist",
+    "ists": "artist",
     "relationtwo": "",
     "year": 2029,
     "country": "English",
@@ -164,7 +164,7 @@
   {
     "entryId": 19,
     "names": "Ai Qing",
-    "-ists": "poet",
+    "ists": "poet",
     "relationtwo": "",
     "year": 2030,
     "country": "China",
@@ -173,7 +173,7 @@
   {
     "entryId": 20,
     "names": "Lao She",
-    "-ists": "poet",
+    "ists": "poet",
     "relationtwo": "",
     "year": 2031,
     "country": "China",
@@ -182,7 +182,7 @@
   {
     "entryId": 21,
     "names": "Lu Xun",
-    "-ists": "poet",
+    "ists": "poet",
     "relationtwo": "",
     "year": 2032,
     "country": "China",
@@ -191,7 +191,7 @@
   {
     "entryId": 22,
     "names": "Ernst Kris",
-    "-ists": "psychologist",
+    "ists": "psychologist",
     "relationtwo": "",
     "year": "",
     "country": "Austra",
@@ -200,7 +200,7 @@
   {
     "entryId": 23,
     "names": "Melanie Klein",
-    "-ists": "psychologist",
+    "ists": "psychologist",
     "relationtwo": "",
     "year": "",
     "country": "Austra, British",
@@ -209,7 +209,7 @@
   {
     "entryId": 24,
     "names": "Sigmund Freud",
-    "-ists": "psychologist",
+    "ists": "psychologist",
     "relationtwo": "",
     "year": "",
     "country": "Austra",

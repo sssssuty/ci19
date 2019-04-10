@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<style type="text/css">
+    div {
+        margin: 100px;
+    }
+</style>
+<body>
+    <div id = "aa"></div>
+    <script type="text/javascript">
+    var url = "https://raw.githubusercontent.com/dariusk/corpora/master/data/geography/us_cities.json";
+    fetch(url)
+            .then(function(response){return response.json();})
+            .then(function(json){ sortData(json);})
+
+    // function sortData(json){
+    //     var cities = json.cities;
+    //     for (var i = 0; i < cities.length; i += 1){
+    //         var city = document.createElement("h1");
+    //         city.innerHTML = cities[i].city;
+    //         document.body.appendChild(city);
+    //     }
+    // }
+
+    function sortData(json){
+        var cities = json.cities;
+
+        var pop = document.createElement("h1");
+        document.body.appendChild(pop);
+
+        for (var i = 0; i < cities.length; i += 1){
+            var city = document.createElement("h1");
+            city.innerHTML = cities[i].city;
+            city.counter = i;
+            document.body.appendChild(city);
+            city.onmouseover = function (event){
+                // console.log("hi");
+                // pop.innerHTML = cities[i].population;
+                var num = event.target.counter;
+                pop.innerHTML = cities [event.target.counter].population;
+                // city[num].style.backgroundColor = "red";
+                console.log(num);
+                console.log(cities [event.target.counter]);
+            }
+        }
+    }
+
+</script>
+</body>
+</html>

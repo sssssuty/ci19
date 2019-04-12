@@ -1,0 +1,243 @@
+div {
+    margin-bottom: 0.6vw;
+}
+
+.tag{
+    font-family: Helvetica;
+    font-weight: bold;
+    /*font-size: 1.6vw;*/
+    column-span: all;
+    width: 20vw;
+}
+
+#Nnames {
+    font-family: Helvetica;
+    font-size: 1.4vw;
+    margin-left: 2vw;
+    margin-top:2vw;
+    margin-right: 0;
+    margin-bottom: 10vw;
+    column-count: 3;
+    column-gap: 0;
+    width: 48vw;
+/*    height:30vw;*/
+}
+
+#Nnames li{
+    list-style-type: none;
+/*    margin: 0.1vw;*/
+/*    width: 15vw;*/
+}
+
+#Yyear{
+    font-family: Helvetica;
+    font-size: 1.4vw;
+    position: absolute;
+    margin-left: 63.2vw;
+    margin-top: 0vw;
+    top: 2vw;
+    display:none;
+}
+
+#Yyear li{
+    list-style-type: none;
+    width: 10vw;
+}
+
+#Iists{
+    font-family: Helvetica;
+    font-size: 1.4vw;
+    position: absolute;
+    margin-left: 74vw;
+    margin-top: 0vw;
+    top: 2vw;
+    color:white;
+    display:none;
+}
+
+#Iists li{
+    list-style-type: none;
+    width: 10vw;
+}
+
+p{
+    margin:0;
+}
+
+#Ccountry{
+    font-family: Helvetica;
+    font-size: 1.4vw;
+    position: absolute;
+    margin-left: 85vw;
+    margin-top: 0vw;
+    top: 2vw;
+    display:none;
+    color:white;
+}
+
+#Mcontent{
+    display:none;
+}
+
+#webLink{
+    display: none;
+    width:50vw;
+}
+
+#workName{
+    display: none;
+}
+
+#Ccountry li{
+    list-style-type: none;
+    width: 10vw;
+}
+
+#Iists2{
+    font-family: Helvetica;
+    font-size: 1.4vw;
+    position: absolute;
+    margin-left: 75.2vw;
+    margin-top: 0vw;
+    top: 2vw;
+    width:10vw;
+}
+
+#Ccountry2 {
+    font-family: Helvetica;
+    font-size: 1.4vw;
+    position: absolute;
+    margin-left: 85.2vw;
+    margin-top: 0vw;
+    top: 2vw;
+    width:10vw;
+}
+
+#Yyear2{
+    font-family: Helvetica;
+    position: absolute;
+    font-size: 1.4vw;
+    margin-left: 65.2vw;
+    margin-top: 0vw;
+    top: 2vw;
+    width:10vw; 
+}
+
+#content{
+    position: absolute;
+    left:2.7vw;
+    width:94.7vw;
+    margin:0;
+    padding:0;
+    font-family: Helvetica;
+}
+
+#line{
+    position: absolute;
+/*    left:0.1vw;*/
+    margin:0;
+    width:93.5vw;
+}
+
+#title{
+    position: absolute;
+    font-size: 2vw;
+    left:16vw;
+}
+
+#weblink{
+    position: absolute;
+    font-size: 1.4vw;
+    width:50vw;
+    left:16vw;
+}
+
+#time{
+    position: absolute;
+    font-size: 1.4vw;
+    width:50vw;
+    left:16vw;
+}
+
+#paragraph{
+    position: absolute;
+    font-size: 1.4vw;
+    left:16vw;
+    width:60vw;
+}
+
+#work{
+    position: absolute;
+    font-size: 2vw;
+    left:16vw;
+    width:60vw;
+}
+
+#Kkeywords{
+    font-family: Helvetica;
+    font-size: 1.4vw;
+    position: absolute;
+    margin-left: 65.1vw;
+    margin-top: 0vw;
+    top: 36vw;
+    column-count: 2;
+    column-gap: 2vw;
+}
+
+#image{
+    position:absolute;
+    top:40vw;
+    left:16vw;
+    margin-bottom: 20px;
+}
+
+.box1{
+    position:absolute;
+    width: 2vw;
+    height: 2vw;
+    background-color: red;
+    top: 39vw;
+    left:2.7vw;
+/*    left: 61.8vw;*/
+}
+.box2{
+    position:absolute;
+    width: 2vw;
+    height: 2vw;
+    background-color: red;
+    opacity: 0.5;
+    top:39vw;
+/*    left:65.8vw;*/
+left:6.7vw;
+}
+
+.box3{
+    position:absolute;
+    width: 2vw;
+    height: 2vw;
+    background-color: red;
+    opacity: 0.1;
+    top:39vw;
+    left:10.7vw;
+    /*left:69.8vw;*/
+}
+
+.lines{
+    padding-bottom: 0.05vw;
+}
+
+#year1500s{
+    padding-top:0.5vw;
+}
+
+#artist{
+    padding-top:0.5vw;
+}
+
+#austra{
+    padding-top:0.5vw;
+}
+
+/*#AiWeiwei{
+    padding-top:0.5vw;
+}*/

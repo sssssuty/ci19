@@ -27,7 +27,7 @@
 
     function sortData(json){
         var cities = json.cities;
-
+console.log(cities);
         var pop = document.createElement("h1");
         document.body.appendChild(pop);
 
@@ -39,10 +39,10 @@
             city.onmouseover = function (event){
                 // console.log("hi");
                 // pop.innerHTML = cities[i].population;
-                var num = event.target.counter;
+                // var num = event.target.counter;
                 pop.innerHTML = cities [event.target.counter].population;
                 // city[num].style.backgroundColor = "red";
-                console.log(num);
+                // console.log(num);
                 console.log(cities [event.target.counter]);
             }
         }

@@ -6,6 +6,17 @@ var counter = -1;
 var counter2 = -1;
 var save = [];
 var counter3 = -1;
+var myFont1,myFont2,myFont3,myFont4,myFont5,myFont6,myFont7,myFont;
+
+function preload(){
+    myFont = loadFont('mabry.ttf');
+    myFont2 = loadFont('NinjaStrike.otf');
+    myFont5 = loadFont('Italianno.otf');
+    myFont3 = loadFont('PermanentMarker.otf');
+    myFont6 = loadFont('cao.ttf');
+    myFont4 = loadFont('orbitron.otf');
+    myFont7 = loadFont('Grand Hotel.otf');
+}
 
 function setup(){
 
@@ -17,6 +28,9 @@ function setup(){
     input = select("#city");
     fill(0);
     siz = 10;
+
+    
+    console.log("aaa");
 }
 
 function weatherAsk(){
@@ -156,7 +170,7 @@ function fontFunction(){
         noStroke();
         textSize(1360/len);
         textAlign(CENTER);
-        textFont('Mabry');
+        textFont(myFont);
         text(tex, width/2, height/2+80);
 }
 
@@ -175,7 +189,7 @@ function fontFunction2(){
         noStroke();
         textSize(1360/len);
         textAlign(CENTER);
-        textFont("Janitor");
+        textFont(myFont2);
         text(tex, width/2, height/2+80);
 }
 
@@ -185,7 +199,7 @@ function fontFunction3(){
         noStroke();
         textSize(1360/len);
         textAlign(CENTER);
-        textFont("NinjaStrike");
+        textFont(myFont3);
         text(tex, width/2, height/2+80);
 }
 function fontFunction4(){
@@ -194,7 +208,7 @@ function fontFunction4(){
         noStroke();
         textSize(1360/len);
         textAlign(CENTER);
-        textFont("Orbitron");
+        textFont(myFont4);
         text(tex, width/2, height/2+80);
 }
 function fontFunction5(){
@@ -203,7 +217,7 @@ function fontFunction5(){
         noStroke();
         textSize(1360/len);
         textAlign(CENTER);
-        textFont("Italianno");
+        textFont(myFont5);
         text(tex, width/2, height/2+80);
 }
 function fontFunction6(){
@@ -212,7 +226,7 @@ function fontFunction6(){
         noStroke();
         textSize(1360/len);
         textAlign(CENTER);
-        textFont("Liujian-Mao-Cao");
+        textFont(myFont6);
         text(tex, width/2, height/2+80);
 }
 function fontFunction7(){
@@ -221,7 +235,7 @@ function fontFunction7(){
         noStroke();
         textSize(1360/len);
         textAlign(CENTER);
-        textFont("Grand Hotel");
+        textFont(myFont7);
         text(tex, width/2, height/2+80);
 }
 

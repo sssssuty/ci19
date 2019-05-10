@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 div {
     margin-bottom: 0.6vw;
 }
@@ -196,7 +200,7 @@ p{
     width: 2vw;
     height: 2vw;
     background-color: red;
-    top: 39vw;
+    top: 39.25vw;
     left:2.7vw;
 /*    left: 61.8vw;*/
 }
@@ -206,7 +210,7 @@ p{
     height: 2vw;
     background-color: red;
     opacity: 0.5;
-    top:39vw;
+    top:39.25vw;
 /*    left:65.8vw;*/
 left:6.7vw;
 }
@@ -217,7 +221,7 @@ left:6.7vw;
     height: 2vw;
     background-color: red;
     opacity: 0.1;
-    top:39vw;
+    top:39.25vw;
     left:10.7vw;
     /*left:69.8vw;*/
 }

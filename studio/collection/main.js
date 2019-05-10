@@ -1,5 +1,5 @@
 
-    var url = "https://raw.githubusercontent.com/sssssuty/ci19/master/studio/collection/prototype-2/csvjson%20copy%2011.json";
+    var url = "https://raw.githubusercontent.com/sssssuty/ci19/master/studio/collection/prototype-3/csvjson.json";
     fetch(url)
             .then(function(response){return response.json();})
             .then(function(json){ sortData(json);})
@@ -545,4 +545,12 @@
             });
 }
 
-    }
+}
+
+$(document).ready(function(){
+  $("#Nnames").on('click', function(event) {
+   console.log("aaa");
+   window.scrollTo(0,500);
+  });
+});
+

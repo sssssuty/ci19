@@ -28,9 +28,6 @@ function setup(){
     input = select("#city");
     fill(0);
     siz = 10;
-
-    
-    console.log("aaa");
 }
 
 function weatherAsk(){
@@ -95,6 +92,10 @@ function gotData(data){
 }
 
 function draw(){
+    if (mouseX > 74 * windowWidth/100 && mouseY < 6 * windowHeight/100 && keyCode == "13"){
+        console.log("aaa");
+        weatherAsk();
+    }
     if (weather){
         temP = weather.main.temp;
         humiditY = weather.main.humidity;

@@ -96,7 +96,7 @@ function draw(){
     //     console.log("aaa");
     //     weatherAsk();
     // }
-    
+
     if (weather){
         temP = weather.main.temp;
         humiditY = weather.main.humidity;
@@ -356,4 +356,8 @@ function typeWriter4() {
     i++;
     setTimeout(typeWriter4, speed);
   }
+}
+
+function positionFunction(){
+    console.log(this);
 }

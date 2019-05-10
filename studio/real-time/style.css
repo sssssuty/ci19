@@ -32,7 +32,7 @@
             padding-bottom: 3vw;
             cursor: default;
         }
-        #colorOptions:active{
+        #colorOptions:hover{
             top:0vw;
             cursor: default;
         }
@@ -64,7 +64,7 @@
             cursor: default;
         }
 
-        #fontOptions:active{
+        #fontOptions:hover{
             top:0vw;
             cursor: default;
         }
@@ -78,7 +78,7 @@
             overflow: scroll;
             cursor: default;
         }
-        #search:active{
+        #search:hover{
             top:0vw;
             cursor: default;
         }

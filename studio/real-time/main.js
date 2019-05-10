@@ -133,10 +133,10 @@ function draw(){
         weather = false;
     }
     if (mouseIsPressed){
-        document.getElementById("colorOptions").style.top = "-16vw";
-        document.getElementById("fontOptions").style.top = "-16vw";
-        document.getElementById("strokeOptions").style.top = "-16vw";
-        document.getElementById("search").style.top = "-3vw";
+        // document.getElementById("colorOptions").style.top = "-16vw";
+        // document.getElementById("fontOptions").style.top = "-16vw";
+        // document.getElementById("strokeOptions").style.top = "-16vw";
+        // document.getElementById("search").style.top = "-3vw";
         stroke(r,g,b);
             // noStroke();
         strokeWeight(siz);

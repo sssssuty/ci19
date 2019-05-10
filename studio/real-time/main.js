@@ -133,10 +133,10 @@ function draw(){
         weather = false;
     }
     if (mouseIsPressed){
-        document.getElementById("colorOptions").style.top = "-16vw";
-        document.getElementById("fontOptions").style.top = "-16vw";
-        document.getElementById("strokeOptions").style.top = "-16vw";
-        document.getElementById("search").style.top = "-3vw";
+        // document.getElementById("colorOptions").style.top = "-16vw";
+        // document.getElementById("fontOptions").style.top = "-16vw";
+        // document.getElementById("strokeOptions").style.top = "-16vw";
+        // document.getElementById("search").style.top = "-3vw";
         stroke(r,g,b);
             // noStroke();
         strokeWeight(siz);
@@ -362,30 +362,30 @@ function typeWriter4() {
   }
 }
 
-function positionFunction1(){
-    document.getElementById("colorOptions").style.top = "0";
-    document.getElementById("fontOptions").style.top = "-16vw";
-    document.getElementById("strokeOptions").style.top = "-16vw";
-    document.getElementById("search").style.top = "-3vw";
-}
-function positionFunction2(){
-    document.getElementById("strokeOptions").style.top = "0";
-    document.getElementById("colorOptions").style.top = "-16vw";
-    document.getElementById("fontOptions").style.top = "-16vw";
-    // document.getElementById("strokeOptions").style.top = "-16vw";
-    document.getElementById("search").style.top = "-3vw";
-}
-function positionFunction3(){
-    document.getElementById("fontOptions").style.top = "0";
-    document.getElementById("colorOptions").style.top = "-16vw";
-    // document.getElementById("fontOptions").style.top = "-16vw";
-    document.getElementById("strokeOptions").style.top = "-16vw";
-    document.getElementById("search").style.top = "-3vw";
-}
-function positionFunction4(){
-    document.getElementById("search").style.top = "0";
-    document.getElementById("colorOptions").style.top = "-16vw";
-    document.getElementById("fontOptions").style.top = "-16vw";
-    document.getElementById("strokeOptions").style.top = "-16vw";
-    // document.getElementById("search").style.top = "-3vw";
-}
+// function positionFunction1(){
+//     document.getElementById("colorOptions").style.top = "0";
+//     document.getElementById("fontOptions").style.top = "-16vw";
+//     document.getElementById("strokeOptions").style.top = "-16vw";
+//     document.getElementById("search").style.top = "-3vw";
+// }
+// function positionFunction2(){
+//     document.getElementById("strokeOptions").style.top = "0";
+//     document.getElementById("colorOptions").style.top = "-16vw";
+//     document.getElementById("fontOptions").style.top = "-16vw";
+//     // document.getElementById("strokeOptions").style.top = "-16vw";
+//     document.getElementById("search").style.top = "-3vw";
+// }
+// function positionFunction3(){
+//     document.getElementById("fontOptions").style.top = "0";
+//     document.getElementById("colorOptions").style.top = "-16vw";
+//     // document.getElementById("fontOptions").style.top = "-16vw";
+//     document.getElementById("strokeOptions").style.top = "-16vw";
+//     document.getElementById("search").style.top = "-3vw";
+// }
+// function positionFunction4(){
+//     document.getElementById("search").style.top = "0";
+//     document.getElementById("colorOptions").style.top = "-16vw";
+//     document.getElementById("fontOptions").style.top = "-16vw";
+//     document.getElementById("strokeOptions").style.top = "-16vw";
+//     // document.getElementById("search").style.top = "-3vw";
+// }

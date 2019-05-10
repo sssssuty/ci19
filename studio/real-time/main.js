@@ -133,10 +133,14 @@ function draw(){
         weather = false;
     }
     if (mouseIsPressed){
-            stroke(r,g,b);
+        document.getElementById("colorOptions").style.top = "-16vw";
+        document.getElementById("fontOptions").style.top = "-16vw";
+        document.getElementById("strokeOptions").style.top = "-16vw";
+        document.getElementById("search").style.top = "-3vw";
+        stroke(r,g,b);
             // noStroke();
-            strokeWeight(siz);
-            line(mouseX, mouseY, pmouseX, pmouseY);;
+        strokeWeight(siz);
+        line(mouseX, mouseY, pmouseX, pmouseY);;
             // ellipse(mouseX, mouseY, siz, siz);
     }
 }
@@ -358,6 +362,30 @@ function typeWriter4() {
   }
 }
 
-function positionFunction(){
-    console.log(this);
+function positionFunction1(){
+    document.getElementById("colorOptions").style.top = "0";
+    document.getElementById("fontOptions").style.top = "-16vw";
+    document.getElementById("strokeOptions").style.top = "-16vw";
+    document.getElementById("search").style.top = "-3vw";
+}
+function positionFunction2(){
+    document.getElementById("strokeOptions").style.top = "0";
+    document.getElementById("colorOptions").style.top = "-16vw";
+    document.getElementById("fontOptions").style.top = "-16vw";
+    // document.getElementById("strokeOptions").style.top = "-16vw";
+    document.getElementById("search").style.top = "-3vw";
+}
+function positionFunction3(){
+    document.getElementById("fontOptions").style.top = "0";
+    document.getElementById("colorOptions").style.top = "-16vw";
+    // document.getElementById("fontOptions").style.top = "-16vw";
+    document.getElementById("strokeOptions").style.top = "-16vw";
+    document.getElementById("search").style.top = "-3vw";
+}
+function positionFunction4(){
+    document.getElementById("search").style.top = "0";
+    document.getElementById("colorOptions").style.top = "-16vw";
+    document.getElementById("fontOptions").style.top = "-16vw";
+    document.getElementById("strokeOptions").style.top = "-16vw";
+    // document.getElementById("search").style.top = "-3vw";
 }

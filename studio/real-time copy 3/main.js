@@ -6,6 +6,11 @@ var counter = -1;
 var counter2 = -1;
 var save = [];
 var counter3 = -1;
+var myFont;
+
+function preload(){
+    myFont = loadFont('mabry.ttf');
+}
 
 function setup(){
 
@@ -18,7 +23,8 @@ function setup(){
     fill(0);
     siz = 10;
 
-    loadFont("NinjaStrike.otf",fontFunction3);
+    loadFont('NinjaStrike.otf', fontFunction3);
+    console.log("aaa");
 }
 
 function weatherAsk(){
@@ -158,7 +164,7 @@ function fontFunction(){
         noStroke();
         textSize(1360/len);
         textAlign(CENTER);
-        textFont('Mabry');
+        textFont(myFont);
         text(tex, width/2, height/2+80);
 }
 
@@ -185,9 +191,9 @@ function fontFunction3(font){
         background(255);
         fill(0);
         noStroke();
-        textSize(1360/len);
+        // textSize();
         textAlign(CENTER);
-        textFont(font);
+        textFont(font, 1360/len);
         text(tex, width/2, height/2+80);
 }
 function fontFunction4(){

@@ -198,3 +198,9 @@
             75% {opacity: 1;}
             100% {opacity: 0;}
         }
+
+        @keyframes mymove{
+            0% {top:3vw;}
+            50% {top:4vw;}
+            100% {top:3vw;}
+        }

@@ -9,5 +9,6 @@ function setup(){
 }
 
 function saveFunction(){
+    console.log("hhh");
     save('myThesisOct3.jpg');
 }

@@ -6,7 +6,7 @@ function setup(){
     button.mousePressed(weatherAsk);
 
     input = select("#city");
-    fill(0);
+    fill(200);
     siz = 10;
 }
 
